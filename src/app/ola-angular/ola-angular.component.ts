@@ -2,12 +2,8 @@ import { Component } from '@angular/core'
 
 @Component({
   selector: 'ola-angular',
-  template: `
-    <div style="width: 1280px; margin: auto; text-align:center">
-      <h2>Olá, Angular</h2>
-      <hr>
-    </div>
-  `
+  templateUrl: './ola-angular.component.html',
+  styleUrls: ['./ola-angular.component.css']
 })
 export class OlaAngularComponent{
   framework = "React"
